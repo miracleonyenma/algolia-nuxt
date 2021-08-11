@@ -1,6 +1,7 @@
 ---
 title: My second blog post
 description: This is my second blog post on algolia nuxt
+tags: [second, Placeat amet, Iusto]
 ---
 
 ## Placeat amet

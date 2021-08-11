@@ -29,10 +29,9 @@ export default {
       .sortBy('createdAt', 'asc')
       .fetch()
 
-    return { articles }
+    let env = process.env.ALGOLIA_APP_ID;
+
+    return { articles, env }
   },
 }
 </script>
-
-<style>
-</style>

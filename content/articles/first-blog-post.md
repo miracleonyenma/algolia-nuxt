@@ -1,6 +1,7 @@
 ---
 title: My first blog post
 description: This is my first blog post on algolia nuxt
+tags: [first, lorem ipsum, Iusto]
 ---
 
 ## Lorem ipsum
