@@ -3,7 +3,7 @@
     <ais-instant-search-ssr index-name="articles" :search-client="searchClient">
       <ais-configure :attributesToSnippet="['bodyPlainText']" :hits-per-page.camel="5">
         <ais-autocomplete class="wrapper relative">
-          <div slot-scope="{ currentRefinement, indices, refine }">
+          <template v-slot="{ currentRefinement, indices, refine }">
             <input class="p-2 bg-white bg-opacity-0 outline-none" type="search" :value="currentRefinement" placeholder="Search for an article" @input="refine($event.currentTarget.value)" />
             <div class="results-cont relative">
               <div
@@ -63,7 +63,7 @@
                 <!-- <ais-pagination /> -->
               </div>
             </div>
-          </div>
+          </template>
         </ais-autocomplete>
       </ais-configure>
     </ais-instant-search-ssr>
