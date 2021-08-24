@@ -83,8 +83,8 @@ import algoliaSearch from 'algoliasearch/lite'
 import 'instantsearch.css/themes/satellite-min.css'
 
 const searchClient = algoliaSearch(
-  '34IIDW6KKR',
-  '3f8d80be6c42bb030d27a7f108eb75f8'
+  'S7YDOGRA5L',
+  '430bcab1197ebb218374f1636144644f'
 )
 
 export default {
